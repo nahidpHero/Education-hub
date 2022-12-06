@@ -1,9 +1,12 @@
 import React from 'react';
+import FooterButton from './FooterButton/FooterButton';
+import FooterHeder from './FooterHeader/FooterHeder';
 
 const Footer = () => {
     return (
-        <div>
-            <h1>this is footer</h1>
+        <div className='py-4 bg-dark text-light'>
+            <FooterHeder></FooterHeder>
+            <FooterButton></FooterButton>
         </div>
     );
 };
